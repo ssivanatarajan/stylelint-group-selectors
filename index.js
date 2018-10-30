@@ -46,7 +46,7 @@ module.exports = stylelint.createPlugin(ruleName, function(enabled) {
                         stylelint.utils.report({
                             result,
                             ruleName,
-                            message: messages.expected(selector, lastSelector),
+                            message: messages.expected(selectorWithlineNO, lastSelector),
                             node: rule,
                             word: rule.node
                         });

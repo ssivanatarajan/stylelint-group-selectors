@@ -6,21 +6,16 @@ testRule(groupSelectors.rule, {
     config: [true],
 
     accept: [{
-        code: ".a,.b { display: inline; },span{display:block;}"
+        code: ".a,.b { display: inline; }span{display:block;}"
     }],
     reject: [{
-            code: '.a,{color:black;},span{display:block;}',
+            code: '.a{display:block;}\nspan{display:block;}',
 
-            message: "Unexpected empty selector near '.a' (" + groupSelectors.ruleName + ")",
-            line: 1,
+            message: "span(2:1) and .a(1:1) have same properties, group them. (" + groupSelectors.ruleName + ")",
+            line: 2,
             column: 1
         },
 
-        {
-            code: ',.abhd,.ab{color:black;}',
-            message: 'Unexpected empty selector (' + groupSelectors.ruleName + ')',
-            line: 1,
-            column: 1
-        },
+
     ]
 });
