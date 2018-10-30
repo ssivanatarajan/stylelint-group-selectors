@@ -3,13 +3,13 @@ Identify the selectors, which can be grouped, as they have same set of propertie
 
 
 ```css
-                    .a{ display: inline-block; width: 100px; }
-                    .b{display:inline-block;width:100px;
+  .a{ display: inline-block;width: 100px;}
+  .b{display:inline-block;width:100px;}
 
 ```
 Above selectors can be grouped like this
 ```css
-.a,.b{display: inline-block; width: 100px;}
+.a,.b{display:inline-block;width: 100px;}
 ```
 ## Installation
 
@@ -36,8 +36,8 @@ npm install stylelint-group-selectors --save-dev
 
 The following patterns are considered violations:
 ```css
-.b{display: inline-block;color:#111; }
-.a{display:inline-block;color:#111}
+.b{display:inline-block;color:#111;}
+.a{display:inline-block;color:#111;}
 ```
 ```css
 .a,.b{display: inline-block;color:#111; }
