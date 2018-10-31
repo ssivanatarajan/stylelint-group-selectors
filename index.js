@@ -1,6 +1,6 @@
 var stylelint = require("stylelint");
 var md5 = require('md5');
-var ruleName = "plugin/group-selectors-by-properties";
+var ruleName = "plugin/stylelint-group-selectors";
 
 
 var messages = stylelint.utils.ruleMessages(ruleName, {
