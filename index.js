@@ -46,11 +46,11 @@ module.exports = stylelint.createPlugin(ruleName, function(enabled) {
                         stylelint.utils.report({
                             result,
                             ruleName,
-                            message: messages.expected(selectorWithlineNO, lastSelector),
+                            message: messages.expected(selector, lastSelector),
                             node: rule,
                             word: rule.node
                         });
-                        selectorGroups[hashValue].selectors.push(selectorWithlineNO);
+                        selectorGroups[hashValue].selectors.push(selector);
                     }
                 } else {
                     var Obj = {};

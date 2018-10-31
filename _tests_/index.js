@@ -11,7 +11,7 @@ testRule(groupSelectors.rule, {
     reject: [{
             code: '.a{display:block;}\nspan{display:block;}',
 
-            message: "span(2:1) and .a(1:1) have same properties, group them. (" + groupSelectors.ruleName + ")",
+            message: "span and .a(1:1) have same properties, group them. (" + groupSelectors.ruleName + ")",
             line: 2,
             column: 1
         },
