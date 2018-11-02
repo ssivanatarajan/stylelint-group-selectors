@@ -5,7 +5,7 @@ var ruleName = "plugin/stylelint-group-selectors";
 
 var messages = stylelint.utils.ruleMessages(ruleName, {
     expected: function(selector1, selector2) {
-        return selector1 + " and " + selector2 + " have same properties, group them."
+        return '" ' +selector1 + ' " and ' + selector2 + " have same properties, group them."
     }
 });
 
