@@ -17,7 +17,8 @@
     "devDependencies": {
         "postcss": "^6.0.22",
         "stylelint": "^9.2.1",
-        "stylelint-test-rule-tape": "^0.2.0"
+        "stylelint-test-rule-tape": "^0.2.0",
+        "md5":"2.2.1"
     },
     "homepage": "https://github.com/ssivanatarajan/stylelint-group-selectors/blob/master/README.md",
     "repository": {
