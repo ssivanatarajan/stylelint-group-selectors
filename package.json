@@ -1,6 +1,6 @@
 {
     "name": "stylelint-group-selectors",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "stylelint plugin to identify the selectors can  be grouped as they have same set of properties and values",
     "main": "index.js",
     "scripts": {
@@ -18,7 +18,7 @@
         "postcss": "^6.0.22",
         "stylelint": "^9.2.1",
         "stylelint-test-rule-tape": "^0.2.0",
-        "md5":"2.2.1"
+        "md5": "2.2.1"
     },
     "homepage": "https://github.com/ssivanatarajan/stylelint-group-selectors/blob/master/README.md",
     "repository": {
