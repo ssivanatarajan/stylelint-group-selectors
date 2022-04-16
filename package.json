@@ -18,7 +18,7 @@
         "stylelint-test-rule-tape": "^0.2.0"
     },
     "dependencies": {
-        "postcss": "^6.0.22",
+        "postcss": "^7.0.36",
         "stylelint": "^13.8.0",
         "md5": "2.2.1"
     },
