@@ -19,7 +19,7 @@
         "md5": "2.3.0"
     },
     "peerDependencies": {
-        "stylelint": "^14.9.1"
+        "stylelint": ">=14.9.1"
     },
     "homepage": "https://github.com/ssivanatarajan/stylelint-group-selectors/blob/master/README.md",
     "repository": {
